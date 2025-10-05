@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Software Engineer</title>
+</head>
+
+<body>
+    <div class="particulas"></div>
+
+
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu-link">Início</a>
+            </li>
+            <li>
+                <a href="#secao" class="menu-link">Sobre</a>
+            </li>
+            <li>
+                <a href="#projetos" class="menu-link">Projetos</a>
+            </li>
+            <li>
+                <a href="#contatos" class="menu-link">Contatos</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="inicio" class="cabecalho">
+
+        <img src="img/IMG-20250928-WA0105.jpg" alt="Foto de Vitor Melo" class="foto-perfil">
+        <h1>Vitor Melo</h1>
+        <p class="cabecalho-sub-titulo">Software Engineer</p>
+    </main>
+
+    <section id="secao" class="secao">
+        <h2 class="sobre-titulo">sobre mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo"></p>
+            Sou engenheiro de software, apaixonado por tecnologia e por criar soluções eficientes que transformam ideias em produtos digitais de impacto.
+
+            </p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">meus Projetos</h2>
+        <div class="projetos-caixa">
+
+            <div class="projetos-card">
+                <img src="img/projeto1.png" alt="site de academia" class="projetos-imagem">
+                <div class="caixa-texto-projeto">
+                    <h3 class="info-projetos">site de academia</h3>
+                    <p class="paragrafo-projetos">Site de lojas de carro com sistema de gerenciamento de vendas e clientes.</p>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="img/projeto2.png" alt="" class="projetos-imagem">
+                <div class="caixa-texto-projeto">
+                    <h3 class="info-projetos"></h3>
+                    <p class="paragrafo-projetos"></p>
+
+                    <h3 class="info-projetos"></h3>
+                    <p class="paragrafo-projetos"></p>
+                </div>
+
+            </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Entre em Contato</h2>
+
+        <form class="formularios-contatos" id="formulario" onsubmit="enviarWhats(event)">
+            <div class="grupo-form">
+                <input placeholder="nome" class="campo-form" id="nome">
+            </div>
+
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="digite sua mensagem" rows="6" id="mensagem"></textarea>
+            </div>
+
+            <button type="submit" class="botao-form">Enviar WhatsApp</button>
+        </form>
+
+        
+    </script>
+         <script src="JS/script.js"></script>
+</body>
+
+</html>
