@@ -288,12 +288,12 @@ h1 {
         background: rgba(15, 23, 42, 0.95);
         display: flex;
         flex-direction: column;
-        justify-content: flex-start; /* itens grudados no topo */
+        justify-content: flex-start; /* itens no topo */
         align-items: center;
         padding: 50px 0; /* espaço do topo e bottom */
         transition: right 0.3s ease;
         z-index: 200;
-        gap: 20px; /* espaçamento entre os links */
+        gap: 15px; /* espaço entre os links */
     }
 
     .menu.active {
@@ -314,18 +314,18 @@ h1 {
     }
 
     .menu li {
-        width: 100%;
+        width: auto; /* ocupa só o necessário */
         text-align: center;
-        display: block; /* tira o flex: 1 */
+        display: block; /* remove flex: 1 */
     }
 
     .menu a {
         font-size: 1.5rem;
         display: inline-block; /* ocupa só o espaço do texto */
-        padding: 10px 0; /* espaçamento vertical confortável */
-        width: 100%;
+        padding: 10px 20px; /* espaçamento vertical e horizontal */
         color: var(--claro);
         text-decoration: none;
+        border-radius: 6px; /* cantos levemente arredondados */
         transition: background 0.2s ease;
     }
 
