@@ -14,20 +14,21 @@
 
 
     <nav class="navegacao">
-    <div class="logo">Vitor Melo</div>
+        <div class="logo">Vitor Melo</div>
 
-    <!-- Botão de menu para mobile -->
-    <button class="menu-btn" id="menu-btn">☰</button>
+        <!-- Botão de menu para mobile -->
+        <button class="menu-btn" id="menu-btn">☰</button>
 
-    <ul class="menu" id="menu">
-        <li><a href="#inicio" class="menu-link">Início</a></li>
-        <li><a href="#secao" class="menu-link">Sobre</a></li>
-        <li><a href="#projetos" class="menu-link">Projetos</a></li>
-        <li><a href="#contatos" class="menu-link">Contatos</a></li>
-        <li><a href="https://www.linkedin.com/in/vitordutramelo/" class="menu-link">Linkedin</a></li>
-        <li><a href="https://github.com/Vitor2209" class="menu-link">Git</a></li>
-    </ul>
-</nav>
+        <ul class="menu" id="menu">
+            <li><a href="#inicio" class="menu-link">Início</a></li>
+            <li><a href="#secao" class="menu-link">Sobre</a></li>
+            <li><a href="#projetos" class="menu-link">Projetos</a></li>
+            <li><a href="#skills" class="menu-link">Skills</a></li>
+            <li><a href="#contatos" class="menu-link">Contatos</a></li>
+            <li><a href="https://www.linkedin.com/in/vitordutramelo/" class="menu-link">Linkedin</a></li>
+            <li><a href="https://github.com/Vitor2209" class="menu-link">Git</a></li>
+        </ul>
+    </nav>
 
     <main id="inicio" class="cabecalho">
 
@@ -40,7 +41,8 @@
         <h2 class="sobre-titulo">Sobre mim</h2>
         <div class="sobre-caixa">
             <p class="sobre-paragrafo"></p>
-            Sou engenheiro de software, apaixonado por tecnologia e por criar soluções eficientes que transformam ideias em produtos digitais de impacto.
+            Sou engenheiro de software, apaixonado por tecnologia e por criar soluções eficientes que transformam ideias
+            em produtos digitais de impacto.
 
             </p>
         </div>
@@ -54,12 +56,13 @@
                 <img src="img/spotify.jpeg" alt="site de academia" class="projetos-imagem">
                 <div class="caixa-texto-projeto">
                     <h3 class="info-projetos">Spotify</h3>
-                    <p class="paragrafo-projetos">Clone funcional do Spotify com reprodução de músicas, playlists, busca e interface responsiva, desenvolvido com HTML, CSS e JavaScript.</p>
+                    <p class="paragrafo-projetos">Clone funcional do Spotify com reprodução de músicas, playlists, busca
+                        e interface responsiva, desenvolvido com HTML, CSS e JavaScript.</p>
                 </div>
             </div>
 
             <div class="projetos-card">
-                <img src="img/Node.jpg" alt="" class="projetos-imagem">
+                <img src="img/Back-and.jpg" alt="" class="projetos-imagem">
                 <div class="caixa-texto-projeto">
                     <h3 class="info-projetos">API</h3>
                     <p class="paragrafo-projetos">Backend de cadastro de usuários desenvolvido com Node.js e MongoDB</p>
@@ -68,24 +71,66 @@
             </div>
     </section>
 
-    <section id="contatos" class="contatos">
-        <h2 class="contatos-titulo">Entre em Contato</h2>
+    <section id="skills" class="projetos">
+        <h2 class="projetos-titulo">Skills</h2>
 
-        <form class="formularios-contatos" id="formulario" onsubmit="enviarWhats(event)">
-            <div class="grupo-form">
-                <input placeholder="nome" class="campo-form" id="nome">
+        <div class="projetos-caixa">
+
+            <div class="projetos-card">
+                <img src="img/Web development and Front- End Projects - ByteWebster.jpeg" alt="HTML, CSS e JavaScript" class="projetos-imagem">
+                <div class="caixa-texto-projeto">
+                    <h3 class="info-projetos">Front-end</h3>
+                    <p class="paragrafo-projetos">
+                       Foco em usabilidade, performance e design limpo.
+                    </p>
+                </div>
             </div>
 
-            <div class="grupo-form">
-                <textarea class="campo-form" placeholder="digite sua mensagem" rows="6" id="mensagem"></textarea>
+            <div class="projetos-card">
+                <img src="img/What is Node_js_.jpeg" alt="Node.js e MongoDB" class="projetos-imagem">
+                <div class="caixa-texto-projeto">
+                    <h3 class="info-projetos">Back-end</h3>
+                    <p class="paragrafo-projetos">
+                        Desenvolvimento de APIs e sistemas escaláveis com Node.js, Django e Python.
+                    </p>
+                </div>
             </div>
 
-            <button type="submit" class="botao-form">Enviar WhatsApp</button>
-        </form>
+            <div class="projetos-card">
+                <img src="img/Full Stack Logo.jpeg" alt="Git e GitHub" class="projetos-imagem">
+                <div class="caixa-texto-projeto">
+                    <h3 class="info-projetos">Full Stack</h3>
+                    <p class="paragrafo-projetos">
+                        Integração entre front-end e back-end, garantindo performance, segurança e fluidez na aplicação.
+                    </p>
+                </div>
+            </div>
 
-        
-    </script>
-         <script src="JS/script.js"></script>
+            <div class="projetos-card">
+                <img src="img/Introduction to MongoDB Queries (1).jpeg" alt="Git e GitHub" class="projetos-imagem">
+                <div class="caixa-texto-projeto">
+                    <h3 class="info-projetos">Banco de Dados</h3>
+                    <p class="paragrafo-projetos">
+                       Modelagem e gerenciamento de dados em sistemas relacionais e não relacionais.
+                    </p>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="img/deploi.jpeg" alt="Git e GitHub" class="projetos-imagem">
+                <div class="caixa-texto-projeto">
+                    <h3 class="info-projetos">Deploy & Integração</h3>
+                    <p class="paragrafo-projetos">
+                        Controle de versões e colaboração em equipe utilizando Git e GitHub de forma profissional.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        </script>
+        <script src="JS/script.js"></script>
 </body>
 
 </html>
