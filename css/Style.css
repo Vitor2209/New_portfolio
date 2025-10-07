@@ -277,27 +277,26 @@ h1 {
 }
 
 
-    @media (max-width: 768px) {
-    /* Estilos do menu lateral */
+    
+@media (max-width: 768px) {
     .menu {
         position: fixed;
         top: 0;
-        right: -250px;
-        height: 100%;
+        right: -250px; /* fora da tela inicialmente */
+        height: 100vh; /* altura total da tela */
         width: 250px;
         background: rgba(15, 23, 42, 0.95);
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 0 20px;
-        gap: 30px;
+        justify-content: space-around; /* distribui links igualmente */
+        align-items: center;
+        padding: 0;
         transition: right 0.3s ease;
         z-index: 200;
     }
 
     .menu.active {
-        right: 0;
+        right: 0; /* menu aparece ao clicar no botão */
     }
 
     .menu-btn {
@@ -306,18 +305,33 @@ h1 {
         top: 20px;
         right: 20px;
         z-index: 300;
+        font-size: 2.5rem;
+        background: none;
+        border: none;
+        color: var(--claro);
+        cursor: pointer;
     }
 
     .menu li {
         width: 100%;
+        text-align: center;
+        flex: 1; /* cada link ocupa espaço igual */
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .menu a {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         width: 100%;
-        padding: 10px 0;
-        text-align: left;
+        display: block;
+        padding: 0;
+        line-height: 2.5rem; /* centraliza o texto verticalmente */
+        color: var(--claro);
+        text-decoration: none;
     }
 
-    /* Outros ajustes para mobile, se necessário */
+    .menu a:hover {
+        background: rgba(79, 70, 229, 0.2);
+    }
 }
