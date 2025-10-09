@@ -1,6 +1,6 @@
-# 💼 New_portfolio — versão 2.0.0
+# 💼 New_portfolio — versão 2.0
 
-> Olá! Este é o meu portfólio pessoal (**versão 2.0.0**), desenvolvido com **HTML, CSS e JavaScript**.  
+> Olá! Este é o meu portfólio pessoal (**versão 2.0**), desenvolvido com **HTML, CSS e JavaScript**.  
 > Você pode acessá-lo online em: (https://vitor2209.github.io/New_portfolio/)
 
 ---
